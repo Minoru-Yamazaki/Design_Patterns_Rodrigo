@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>:::: CADASTRO DE CLIENTE::::</title>
+</head>
+<body>
+	<form action="SalvarCliente" method="get">		
+		
+		<label for="txtCliente">Nome:</label>
+		<input type="text" id="txtCliente" name="txtCliente"/>
+		<br />
+		
+		<label for="txtTpDoc">TIPO DOCUMENTO:</label>
+		<select id="txtTpDoc" name="txtTpDoc">
+			<option value="CPF">CPF</option>
+			<option value="CNH">CNH</option>
+		</select>
+		<br />
+		<label for="txtCPF">NUM CPF:</label>
+		<input type="text" id="txtCPF" name="txtCPF"/>
+		<br />	
+		
+		<label for="txtCredito">CRÉDITO:</label>
+		<input type="text" id="txtCredito" name="txtCredito"/>
+		<br />		
+		
+		<label for="txtDep1">NOME DEP1:</label>
+		<input type="text" id="txtDep1" name="txtDep1"/>
+			
+		<label for="txtParentesco1">PARENTESCO 1 DEPENDENTE:</label>
+		<select id="txtParentesco1" name="txtParentesco1">
+			<option value="1">CONJUGE</option>
+			<option value="2">FILHO</option>
+		</select>
+		<br />	
+		
+		<label for="txtDep2">NOME DEP2:</label>
+		<input type="text" id="txtDep2" name="txtDep2"/>
+		
+		<label for="txtParentesco2">PARENTESCO 2 DEPENDENTE:</label>
+		<select id="txtParentesco2" name="txtParentesco2">
+			<option value="1">CONJUGE</option>
+			<option value="2">FILHO</option>
+		</select>	
+		<br />	
+		<label for="txtTend">TIPO ENDERECO:</label>
+		<select id="txtTend" name="txtTend">
+			<option value="COBRANCA">COBRANCA</option>
+			<option value="ENTREGA">ENTREGA</option>
+		</select>
+		<label for="txtLogradouro">LOGRADOURO:</label>
+		<input type="text" id="txtLogradouro" name="txtLogradouro"/>
+		<br />	
+		
+		<label for="txtNumero">NUMERO:</label>
+		<input type="text" id="txtNumero" name="txtNumero"/>
+		<br />	
+		
+		<label for="txtCep">CEP:</label>
+		<input type="text" id="txtCep" name="txtCep"/>
+		<br />			
+		
+		<label for="txtCidade">CIDADE:</label>
+		<input type="text" id="txtCidade" name="txtCidade"/>
+		<br />	
+		
+		<label for="txtEstado">ESTADO:</label>
+		<input type="text" id="txtEstado" name="txtEstado"/>
+		<br />	
+		
+		<label for="txtTpCliente">TIPO CLIENTE:</label>
+		<select id="txtTpCliente" name="txtTpCliente">
+			<option value="VIP">VIP</option>
+			<option value="VALE A APOSTA">VALE A APOSTA</option>
+		</select>
+		
+		<br />	<br />	
+		<input type="submit" id="operacao" name="operacao" value="SALVAR"/>
+		<input type="submit" id="operacao" name="operacao" value="EXCLUIR"/>
+	
+	</form>
+</body>
+</html>
